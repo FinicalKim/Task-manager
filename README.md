@@ -25,28 +25,26 @@ Linux: Use the package manager of your distribution. For example, on Ubuntu:
 
 - Verify
 
-    node -v
-    npm -v
-    mongo --version
+      node -v
+      npm -v
+      mongo --version
 
 - create a React project
 
 Initialize a New React Project
 React is a front-end library for building user interfaces. Create React App is a tool that sets up a new React project with a sensible default configuration.
 
-Commands:
     npx create-react-app task-manager-frontend
 
 - Start the Front-End Development Server
-
-Commands:
-    cd task-manager-frontend
-    npm start
+    
+        cd task-manager-frontend
+        npm start
 
 Set Up a New Node.js Project with Express.js
 Express.js is a web application framework for Node.js, designed for building APIs and web applications.
 
-Commands:
+
     mkdir task-manager-backend
     cd task-manager-backend
 
