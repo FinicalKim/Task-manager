@@ -6,8 +6,9 @@ Setup:
 Windows and macOS: Download the installer from the official Node.js website. Follow the installation instructions to install both Node.js and npm.
 
 Linux: Use the package manager of your distribution. For example, on Ubuntu:
-sudo apt update
-sudo apt install nodejs npm
+
+    sudo apt update
+    sudo apt install nodejs npm
 
 
 
@@ -15,7 +16,6 @@ Windows and macOS: Download the installer from the official MongoDB website. Fol
 
 Linux: Use the package manager of your distribution. For example, on Ubuntu:
 
-Commands:
     sudo apt update
     sudo apt install -y mongodb
     sudo systemctl start mongodb
@@ -25,7 +25,6 @@ Commands:
 
 - Verify
 
-Commands:
     node -v
     npm -v
     mongo --version
